@@ -3,23 +3,19 @@
     
     <!-- Hero Section -->
     <section class="hero-section animate-rise">
-      <p class="subtitle">Portfólio 2026</p>
+      <p class="subtitle">{{ $t('home.eyebrow', { year: currentYear }) }}</p>
       <h1 class="title">
-        Interfaces <span class="text-gradient">translúcidas</span>,<br />
-        engenharia sólida.
+        {{ $t('home.title.before') }} <span class="text-gradient">{{ $t('home.title.highlight') }}</span>,<br />
+        {{ $t('home.title.after') }}
       </h1>
-      <p class="description">
-        Sou Anthony Santos, desenvolvedor full stack. Desenho e construo produtos web do banco
-        de dados ao último pixel — com performance, acessibilidade e um cuidado quase obsessivo
-        com detalhe.
-      </p>
+      <p class="description">{{ $t('home.description') }}</p>
       
       <div class="cta-group">
         <router-link to="/projetos" class="btn btn-primary glass-strong glass-sheen">
-          Ver projetos
+          {{ $t('home.actions.projects') }}
         </router-link>
         <router-link to="/contato" class="btn btn-secondary">
-          Entrar em contato
+          {{ $t('home.actions.contact') }}
         </router-link>
       </div>
     </section>
@@ -34,9 +30,9 @@
         :style="{ animationDelay: `${120 + index * 90}ms` }"
       >
         <div class="card-content">
-          <p class="card-hint">{{ tile.hint }}</p>
+          <p class="card-hint">{{ $t(tile.hintKey) }}</p>
           <p class="card-label">
-            {{ tile.label }} <span class="arrow">→</span>
+            {{ $t(tile.labelKey) }} <span class="arrow">→</span>
           </p>
         </div>
       </router-link>
@@ -46,7 +42,7 @@
     <section class="stats-container glass glass-sheen animate-rise">
       <div v-for="(stat, index) in homeStats" :key="index" class="stat-item">
         <p class="stat-value text-gradient">{{ stat.value }}</p>
-        <p class="stat-label">{{ stat.label }}</p>
+        <p class="stat-label">{{ $t(stat.labelKey) }}</p>
       </div>
     </section>
     
@@ -55,6 +51,8 @@
 
 <script setup>
 import { homeShortcutTiles, homeStats } from '../data/home-content.js';
+
+const currentYear = new Date().getFullYear();
 </script>
 
 <style scoped lang="scss">

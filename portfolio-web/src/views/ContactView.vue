@@ -1,18 +1,18 @@
 <template>
   <main class="contact-container">
     <SectionHeading
-      eyebrow="Contato"
-      title="Vamos construir algo juntos"
-      description="Sinta-se à vontade para me mandar um e-mail ou se conectar através das redes sociais. Respondo em até um dia útil."
+      :eyebrow="$t('contact.heading.eyebrow')"
+      :title="$t('contact.heading.title')"
+      :description="$t('contact.heading.description')"
     />
 
     <div class="channels-wrapper">
       <GlassCard class="channels-card animate-rise">
-        <h2 class="card-title">Canais disponíveis</h2>
+        <h2 class="card-title">{{ $t('contact.channelsTitle') }}</h2>
         
         <ul class="channels-list">
-          <li v-for="channel in contactChannels" :key="channel.label">
-            <p class="channel-label">{{ channel.label }}</p>
+          <li v-for="channel in contactChannels" :key="channel.labelKey">
+            <p class="channel-label">{{ $t(channel.labelKey) }}</p>
             <a 
               :href="channel.href" 
               target="_blank" 
@@ -25,7 +25,7 @@
         </ul>
         
         <p class="availability-text">
-          Disponível para colaborações remotas — fuso de São Paulo (UTC−3).
+          {{ $t('contact.availability') }}
         </p>
       </GlassCard>
     </div>

@@ -1,22 +1,22 @@
 export const primaryNavigationItems = [
   { 
-    label: 'Home', 
+    labelKey: 'navigation.home',
     to: '/' 
   },
   { 
-    label: 'Sobre Mim', 
+    labelKey: 'navigation.about',
     to: '/sobre' 
   },
   { 
-    label: 'Projetos', 
+    labelKey: 'navigation.projects',
     to: '/projetos' 
   },
   { 
-    label: 'Experiências', 
+    labelKey: 'navigation.experiences',
     to: '/experiencias' 
   },
   { 
-    label: 'Contato', 
+    labelKey: 'navigation.contact',
     to: '/contato' 
   }
 ];

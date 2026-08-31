@@ -2,7 +2,7 @@
   <footer class="site-footer">
     <div class="footer-container glass glass-sheen">
       <p>© {{ currentYear }} Anthony Santos</p>
-      <p>Feito com atenção aos detalhes e muito vidro fosco.</p>
+      <p>{{ $t('footer.tagline') }}</p>
     </div>
   </footer>
 </template>

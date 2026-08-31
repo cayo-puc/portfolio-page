@@ -1,22 +1,26 @@
-Snippet de código
 <template>
     <header class="site-header">
     <nav class="nav-container glass glass-sheen">
         <router-link to="/" class="brand">
         <span class="name">Anthony Santos</span>
-        <span class="role">Full Stack Developer</span>
+        <span class="role">{{ $t('header.role') }}</span>
         </router-link>
         
         <ul class="nav-links">
         <!-- O slice(1) remove o link 'Home' para não duplicar, já que o nome/logo já leva para a Home -->
         <li v-for="item in primaryNavigationItems.slice(1)" :key="item.to">
             <router-link :to="item.to" class="nav-item" active-class="active">
-            {{ item.label }}
+            {{ $t(item.labelKey) }}
             </router-link>
         </li>
         <li>
-            <button @click="toggleLanguage" class="lang-toggle">
-                {{ currentLocale === 'pt' ? 'EN' : 'PT' }}
+            <button
+              @click="toggleLanguage"
+              class="lang-toggle"
+              type="button"
+              :aria-label="$t('accessibility.changeLanguage')"
+            >
+                {{ currentLocale === 'pt-BR' ? 'EN' : 'PT' }}
             </button>
         </li>
         </ul>
@@ -29,12 +33,16 @@ import { primaryNavigationItems } from '../data/navigation-items.js';
 import { computed } from 'vue';
 import { useI18n } from 'vue-i18n';
 
-const { locale } = useI18n();
+const { locale, t } = useI18n();
 
 const currentLocale = computed(() => locale.value);
 
 const toggleLanguage = () => {
-  locale.value = locale.value === 'pt' ? 'en' : 'pt';
+  locale.value = locale.value === 'pt-BR' ? 'en' : 'pt-BR';
+  localStorage.setItem('portfolio-locale', locale.value);
+  document.documentElement.lang = locale.value;
+  document.title = t('meta.title');
+  document.querySelector('meta[name="description"]')?.setAttribute('content', t('meta.description'));
 };
 </script>
 

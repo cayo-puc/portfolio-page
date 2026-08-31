@@ -1,29 +1,29 @@
 <template>
   <main class="experiences-container">
     <SectionHeading
-      eyebrow="Experiências"
-      title="Uma linha do tempo honesta"
-      description="Onde trabalhei, o que era minha responsabilidade e o impacto que ficou depois que eu saí."
+      :eyebrow="$t('experiences.heading.eyebrow')"
+      :title="$t('experiences.heading.title')"
+      :description="$t('experiences.heading.description')"
     />
 
     <ol class="timeline-list">
       <GlassCard
         as="li"
         v-for="job in experienceTimeline"
-        :key="job.role + job.period"
+        :key="job.roleKey"
         class="timeline-card animate-rise"
       >
         <div class="job-header">
           <h2 class="job-role">
-            {{ job.role }} <span class="job-company">· {{ job.company }}</span>
+            {{ $t(job.roleKey) }} <span class="job-company">· {{ job.company }}</span>
           </h2>
-          <span class="job-period">{{ job.period }}</span>
+          <span class="job-period">{{ $t(job.periodKey) }}</span>
         </div>
         
         <ul class="job-points">
-          <li v-for="p in job.points" :key="p" class="point-item">
+          <li v-for="pointKey in job.pointKeys" :key="pointKey" class="point-item">
             <span aria-hidden="true" class="bullet"></span>
-            {{ p }}
+            {{ $t(pointKey) }}
           </li>
         </ul>
       </GlassCard>

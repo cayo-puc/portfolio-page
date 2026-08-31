@@ -16,14 +16,14 @@ export const aboutValues = [
 export const aboutSkillGroups = [
   {
     groupKey: "about.skills.backend",
-    items: ["Java", "Spring Boot", "Python", "Flask", "C", "C++"]
+    items: ["Java", "Spring Boot", "Python", "Flask", "C", "C++"].map(label => ({ label }))
   },
   {
     groupKey: "about.skills.engineering",
-    items: ["SOLID", "Design Patterns", "POO", "Arquitetura Modular"]
+    items: [{ label: "SOLID" }, { label: "Design Patterns" }, { key: "about.terms.oop" }, { key: "about.terms.modularArchitecture" }]
   },
   {
     groupKey: "about.skills.database",
-    items: ["SQL", "Banco Relacional", "Scrum", "Modelagem de Processos"]
+    items: [{ label: "SQL" }, { key: "about.terms.relationalDatabase" }, { label: "Scrum" }, { key: "about.terms.processModeling" }]
   }
 ];

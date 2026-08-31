@@ -1,37 +1,37 @@
 export const homeShortcutTiles = [
   { 
     to: '/sobre', 
-    hint: 'Quem eu sou e como eu trabalho', 
-    label: 'Sobre Mim' 
+    hintKey: 'home.shortcuts.about.hint',
+    labelKey: 'home.shortcuts.about.label'
   },
   { 
     to: '/projetos', 
-    hint: 'Coisas que eu construí', 
-    label: 'Projetos' 
+    hintKey: 'home.shortcuts.projects.hint',
+    labelKey: 'home.shortcuts.projects.label'
   },
   { 
     to: '/experiencias', 
-    hint: 'Trajetória profissional', 
-    label: 'Experiências' 
+    hintKey: 'home.shortcuts.experiences.hint',
+    labelKey: 'home.shortcuts.experiences.label'
   },
   { 
     to: '/contato', 
-    hint: 'Vamos conversar', 
-    label: 'Contato' 
+    hintKey: 'home.shortcuts.contact.hint',
+    labelKey: 'home.shortcuts.contact.label'
   }
 ];
 
 export const homeStats = [
   { 
-    label: 'anos de código', 
+    labelKey: 'home.stats.years',
     value: '6+' 
   },
   { 
-    label: 'projetos entregues', 
+    labelKey: 'home.stats.projects',
     value: '30+' 
   },
   { 
-    label: 'stacks dominadas', 
+    labelKey: 'home.stats.stacks',
     value: '12' 
   }
 ];

@@ -1,23 +1,54 @@
 {
-  "about": {
-    "values": {
-      "architecture": {
-        "title": "Software Architecture & Design",
-        "text": "Backend development practice using Java and Spring Boot, applying modular architecture concepts to build reusable components that reduce development time."
-      },
-      "automation": {
-        "title": "Automation & Efficiency",
-        "text": "Full-cycle development of solutions, from feasibility analysis and process mapping to implementation and production delivery."
-      },
-      "reliability": {
-        "title": "Reliability & Validation",
-        "text": "Development of validation engines for data ingestion flows, ensuring business rule consistency and information integrity."
-      }
+  "meta": { "title": "Anthony Santos | Full Stack Developer", "description": "Portfolio of Anthony Santos, full stack developer." },
+  "accessibility": { "changeLanguage": "Change language to Portuguese" },
+  "header": { "role": "Full Stack Developer" },
+  "navigation": { "home": "Home", "about": "About", "projects": "Projects", "experiences": "Experience", "contact": "Contact" },
+  "home": {
+    "eyebrow": "Portfolio {year}",
+    "title": { "before": "Translucent", "highlight": "interfaces", "after": "solid engineering." },
+    "description": "I'm Anthony Santos, a full stack developer. I design and build web products from the database to the final pixel—with performance, accessibility, and an almost obsessive attention to detail.",
+    "actions": { "projects": "View projects", "contact": "Get in touch" },
+    "shortcuts": {
+      "about": { "hint": "Who I am and how I work", "label": "About" },
+      "projects": { "hint": "Things I've built", "label": "Projects" },
+      "experiences": { "hint": "Professional journey", "label": "Experience" },
+      "contact": { "hint": "Let's talk", "label": "Contact" }
     },
-    "skills": {
-      "backend": "Backend",
-      "engineering": "Engineering & Architecture",
-      "database": "Database & Methodologies"
+    "stats": { "years": "years of coding", "projects": "projects delivered", "stacks": "stacks mastered" }
+  },
+  "about": {
+    "heading": { "eyebrow": "About Me", "title": "I build products from the database to the pixel", "description": "I started experimenting with HTML out of curiosity and never stopped. Today I work as a full stack developer, taking care of backend architecture and interfaces people genuinely enjoy using." },
+    "stackTitle": "Tech Stack",
+    "values": {
+      "architecture": { "title": "Software Architecture and Design", "text": "Backend development with Java and Spring Boot, applying modular architecture concepts to build reusable components that reduce development time." },
+      "automation": { "title": "Automation and Efficiency", "text": "Full-cycle solution development, from feasibility analysis and process mapping to implementation and production delivery." },
+      "reliability": { "title": "Reliability and Validation", "text": "Development of validation engines for data ingestion flows, ensuring consistent business rules and data integrity." }
+    },
+    "skills": { "backend": "Backend", "engineering": "Engineering and Architecture", "database": "Databases and Methodologies" },
+    "terms": { "oop": "OOP", "modularArchitecture": "Modular Architecture", "relationalDatabase": "Relational Databases", "processModeling": "Process Modeling" }
+  },
+  "experiences": {
+    "heading": { "eyebrow": "Experience", "title": "An honest timeline", "description": "Where I've worked, what I was responsible for, and the impact my work created." },
+    "items": {
+      "intern": { "role": "Software Engineering Intern", "period": "2026 — Present", "points": { "1": "Working in the financial sector, focusing on developing data analysis solutions.", "2": "Contributing to software engineering routines while maintaining and evolving the codebase.", "3": "Technical collaboration to optimize operational workflows and integrate corporate systems." } },
+      "independent": { "role": "Backend and Full Stack Developer", "period": "2024 — 2026", "points": { "1": "Architecture and development of NutriSoft API, a Java and Spring Boot system for data management.", "2": "Building Vue.js interfaces focused on performance and seamless integration with RESTful APIs.", "3": "Relational database modeling with MySQL and creation of continuous deployment pipelines." } }
     }
-  }
+  },
+  "projects": {
+    "heading": { "eyebrow": "Projects", "title": "Selected work", "description": "A sample of what I've built recently—the problem, the technical decision, and the outcome." },
+    "names": { "components": "Glassmorphism UI Components", "scheduling": "Scheduling System" },
+    "items": {
+      "nutrisoft": "A backend system for data management and processing, with an architecture designed to ensure scalability and information integrity.",
+      "dashboard": "A financial and operational data analysis platform designed for performance and clear visualization of decision-making indicators.",
+      "components": "A library of translucent UI components built without heavy CSS frameworks and optimized for accessibility and fluid animations.",
+      "scheduling": "A full stack web application for availability and appointment management, with server-side rendering and direct database integration."
+    }
+  },
+  "contact": {
+    "heading": { "eyebrow": "Contact", "title": "Let's build something together", "description": "Feel free to send me an email or connect through social media. I usually reply within one business day." },
+    "channelsTitle": "Available channels",
+    "channels": { "email": "Email", "linkedin": "LinkedIn", "github": "GitHub" },
+    "availability": "Available for remote collaboration — São Paulo time zone (UTC−3)."
+  },
+  "footer": { "tagline": "Built with attention to detail and plenty of frosted glass." }
 }

@@ -1,16 +1,16 @@
 export const contactChannels = [
   { 
-    label: "E-mail", 
+    labelKey: "contact.channels.email",
     value: "seu-email@exemplo.com", 
     href: "mailto:seu-email@exemplo.com" 
   },
   { 
-    label: "LinkedIn", 
+    labelKey: "contact.channels.linkedin",
     value: "linkedin.com/in/seu-perfil", 
     href: "https://linkedin.com/in/seu-perfil" 
   },
   { 
-    label: "GitHub", 
+    labelKey: "contact.channels.github",
     value: "github.com/seu-usuario", 
     href: "https://github.com/seu-usuario" 
   }
