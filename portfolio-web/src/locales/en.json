@@ -1,0 +1,23 @@
+{
+  "about": {
+    "values": {
+      "architecture": {
+        "title": "Software Architecture & Design",
+        "text": "Backend development practice using Java and Spring Boot, applying modular architecture concepts to build reusable components that reduce development time."
+      },
+      "automation": {
+        "title": "Automation & Efficiency",
+        "text": "Full-cycle development of solutions, from feasibility analysis and process mapping to implementation and production delivery."
+      },
+      "reliability": {
+        "title": "Reliability & Validation",
+        "text": "Development of validation engines for data ingestion flows, ensuring business rule consistency and information integrity."
+      }
+    },
+    "skills": {
+      "backend": "Backend",
+      "engineering": "Engineering & Architecture",
+      "database": "Database & Methodologies"
+    }
+  }
+}
