@@ -7,7 +7,7 @@ export const experienceTimeline = [
   },
   {
     roleKey: "experiences.items.independent.role",
-    company: "Projetos Independentes",
+    companyKey: "experiences.items.independent.company",
     periodKey: "experiences.items.independent.period",
     pointKeys: [1, 2, 3].map(number => `experiences.items.independent.points.${number}`)
   }

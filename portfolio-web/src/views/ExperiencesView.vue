@@ -15,7 +15,7 @@
       >
         <div class="job-header">
           <h2 class="job-role">
-            {{ $t(job.roleKey) }} <span class="job-company">· {{ job.company }}</span>
+            {{ $t(job.roleKey) }} <span class="job-company">· {{ job.companyKey ? $t(job.companyKey) : job.company }}</span>
           </h2>
           <span class="job-period">{{ $t(job.periodKey) }}</span>
         </div>

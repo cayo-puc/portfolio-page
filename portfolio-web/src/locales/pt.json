@@ -1,64 +1,64 @@
 {
-  "meta": { "title": "Anthony Santos | Desenvolvedor Full Stack", "description": "Portfólio de Anthony Santos, desenvolvedor full stack." },
+  "meta": { "title": "Anthony Santos | Engenharia de Software", "description": "Portfólio profissional de Anthony Santos, com atuação em desenvolvimento backend, aplicações web e integração de dados." },
   "accessibility": { "changeLanguage": "Alterar idioma para inglês" },
-  "header": { "role": "Desenvolvedor Full Stack" },
+  "header": { "role": "Engenharia de Software" },
   "navigation": { "home": "Início", "about": "Sobre Mim", "projects": "Projetos", "experiences": "Experiências", "contact": "Contato" },
   "home": {
-    "eyebrow": "Portfólio {year}",
-    "title": { "before": "Interfaces", "highlight": "translúcidas", "after": "engenharia sólida." },
-    "description": "Sou Anthony Santos, desenvolvedor full stack. Desenho e construo produtos web do banco de dados ao último pixel — com performance, acessibilidade e um cuidado quase obsessivo com detalhes.",
+    "eyebrow": "Engenharia de Software · {year}",
+    "title": { "before": "Desenvolvimento de software com foco em", "highlight": "sistemas", "after": "dados e integração." },
+    "description": "Atuo no desenvolvimento de aplicações com Java, Spring Boot e Vue.js, incluindo APIs REST, interfaces web e integração com bancos de dados relacionais.",
     "actions": { "projects": "Ver projetos", "contact": "Entrar em contato" },
     "shortcuts": {
-      "about": { "hint": "Quem eu sou e como eu trabalho", "label": "Sobre Mim" },
-      "projects": { "hint": "Coisas que eu construí", "label": "Projetos" },
-      "experiences": { "hint": "Trajetória profissional", "label": "Experiências" },
-      "contact": { "hint": "Vamos conversar", "label": "Contato" }
+      "about": { "hint": "Perfil, competências e tecnologias", "label": "Sobre Mim" },
+      "projects": { "hint": "Soluções e implementações técnicas", "label": "Projetos" },
+      "experiences": { "hint": "Atuação e responsabilidades", "label": "Experiências" },
+      "contact": { "hint": "Canais profissionais", "label": "Contato" }
     },
     "stats": { "years": "anos de código", "projects": "projetos entregues", "stacks": "stacks dominadas" }
   },
   "about": {
     "heading": {
-      "eyebrow": "Sobre Mim",
-      "title": "Construo produtos do banco de dados ao pixel",
-      "description": "Comecei mexendo em HTML por curiosidade e nunca parei. Hoje trabalho como desenvolvedor full stack, cuidando da arquitetura de back-end e de interfaces que as pessoas realmente gostam de usar."
+      "eyebrow": "Perfil Profissional",
+      "title": "Atuação em desenvolvimento de software",
+      "description": "Desenvolvo soluções backend e aplicações web. Minha experiência inclui APIs REST, interfaces com Vue.js, bancos de dados relacionais e atividades de manutenção e evolução de software."
     },
     "stackTitle": "Stack",
     "values": {
-      "architecture": { "title": "Arquitetura de Software e Design", "text": "Prática no desenvolvimento backend com Java e Spring Boot, aplicando conceitos de arquitetura modular para construir componentes reutilizáveis que reduzem o tempo de desenvolvimento." },
-      "automation": { "title": "Automação e Eficiência", "text": "Atuação no ciclo completo de desenvolvimento de soluções, englobando desde a análise de viabilidade e mapeamento de processos até a implementação e entrega em produção." },
-      "reliability": { "title": "Confiabilidade e Validação", "text": "Desenvolvimento de motores de validação para fluxos de ingestão de dados, garantindo a consistência das regras de negócio e a integridade das informações." }
+      "architecture": { "title": "Desenvolvimento backend", "text": "Desenvolvimento de APIs e componentes com Java e Spring Boot, utilizando orientação a objetos, princípios SOLID e arquitetura modular." },
+      "automation": { "title": "Aplicações web e integração", "text": "Construção de interfaces com Vue.js e integração com APIs REST, considerando o fluxo entre frontend, serviços e persistência de dados." },
+      "reliability": { "title": "Dados e qualidade de software", "text": "Modelagem de bancos de dados relacionais, implementação de validações e manutenção de regras de negócio em fluxos de processamento de dados." }
     },
     "skills": { "backend": "Backend", "engineering": "Engenharia e Arquitetura", "database": "Banco de Dados e Metodologias" },
     "terms": { "oop": "POO", "modularArchitecture": "Arquitetura Modular", "relationalDatabase": "Banco Relacional", "processModeling": "Modelagem de Processos" }
   },
   "experiences": {
-    "heading": { "eyebrow": "Experiências", "title": "Uma linha do tempo honesta", "description": "Onde trabalhei, quais eram minhas responsabilidades e o impacto gerado pelo meu trabalho." },
+    "heading": { "eyebrow": "Carreira", "title": "Experiência profissional", "description": "Atividades desenvolvidas em ambiente corporativo e em projetos independentes." },
     "items": {
       "intern": {
         "role": "Estagiário em Engenharia de Software", "period": "2026 — Presente",
-        "points": { "1": "Atuação no setor financeiro, com foco no desenvolvimento de soluções voltadas para análise de dados.", "2": "Participação em rotinas de engenharia de software, garantindo a manutenção e evolução da base de código.", "3": "Colaboração técnica na otimização de fluxos operacionais e integração de sistemas corporativos." }
+        "points": { "1": "Desenvolvimento de soluções para análise de dados no contexto do setor financeiro.", "2": "Manutenção e evolução da base de código em rotinas de engenharia de software.", "3": "Apoio à integração de sistemas corporativos e à revisão de fluxos operacionais." }
       },
       "independent": {
-        "role": "Desenvolvedor Backend e Full Stack", "period": "2024 — 2026",
-        "points": { "1": "Arquitetura e desenvolvimento da NutriSoft API, sistema estruturado em Java e Spring Boot para gestão de dados.", "2": "Construção de interfaces com Vue.js focadas em performance e integração fluida com APIs RESTful.", "3": "Modelagem de bancos de dados relacionais com MySQL e criação de pipelines de deploy contínuo." }
+        "role": "Desenvolvimento de Projetos de Software", "company": "Projetos Independentes", "period": "2024 — 2026",
+        "points": { "1": "Desenvolvimento da NutriSoft API com Java e Spring Boot para gestão de dados.", "2": "Construção de interfaces com Vue.js e integração com APIs REST.", "3": "Modelagem de bancos de dados relacionais com MySQL e configuração de pipelines de deploy contínuo." }
       }
     }
   },
   "projects": {
-    "heading": { "eyebrow": "Projetos", "title": "Trabalhos selecionados", "description": "Uma amostra do que construí recentemente — com o problema, a decisão técnica e o resultado." },
+    "heading": { "eyebrow": "Portfólio Técnico", "title": "Projetos técnicos", "description": "Aplicações desenvolvidas para consolidar conhecimentos em backend, frontend, bancos de dados e integração de sistemas." },
     "names": { "components": "Componentes UI Glassmorphism", "scheduling": "Sistema de Agendamento" },
     "items": {
-      "nutrisoft": "Sistema backend para gestão e processamento de dados, com arquitetura estruturada para garantir escalabilidade e integridade das informações.",
-      "dashboard": "Plataforma de análise de dados financeiros e operacionais, projetada com foco em performance e visualização de indicadores para tomada de decisão.",
-      "components": "Biblioteca de componentes de interface translúcidos, desenvolvida sem frameworks CSS pesados e otimizada para acessibilidade e animações fluidas.",
-      "scheduling": "Aplicação web full stack para controle de disponibilidade e agendamentos, com renderização no servidor e integração direta com o banco de dados."
+      "nutrisoft": "API para cadastro, consulta e processamento de dados, desenvolvida com Java, Spring Boot e MySQL.",
+      "dashboard": "Aplicação para organização e visualização de dados financeiros e operacionais, desenvolvida com Vue.js, Python e Flask.",
+      "components": "Conjunto de componentes de interface com efeito glassmorphism, desenvolvido com Vue 3 e SCSS, sem framework CSS adicional.",
+      "scheduling": "Aplicação web para controle de disponibilidade e agendamentos, desenvolvida com Java, Thymeleaf e banco de dados relacional."
     }
   },
   "contact": {
-    "heading": { "eyebrow": "Contato", "title": "Vamos construir algo juntos", "description": "Sinta-se à vontade para enviar um e-mail ou se conectar pelas redes sociais. Respondo em até um dia útil." },
-    "channelsTitle": "Canais disponíveis",
+    "heading": { "eyebrow": "Contato", "title": "Contato profissional", "description": "Estou disponível para oportunidades em Engenharia de Software e para colaboração em projetos de desenvolvimento." },
+    "channelsTitle": "Canais de contato",
     "channels": { "email": "E-mail", "linkedin": "LinkedIn", "github": "GitHub" },
     "availability": "Disponível para colaborações remotas — fuso de São Paulo (UTC−3)."
   },
-  "footer": { "tagline": "Feito com atenção aos detalhes e muito vidro fosco." }
+  "footer": { "tagline": "Portfólio profissional de Engenharia de Software." }
 }

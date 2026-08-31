@@ -1,54 +1,54 @@
 {
-  "meta": { "title": "Anthony Santos | Full Stack Developer", "description": "Portfolio of Anthony Santos, full stack developer." },
+  "meta": { "title": "Anthony Santos | Software Engineering", "description": "Anthony Santos' professional portfolio, focused on backend development, web applications, and data integration." },
   "accessibility": { "changeLanguage": "Change language to Portuguese" },
-  "header": { "role": "Full Stack Developer" },
+  "header": { "role": "Software Engineering" },
   "navigation": { "home": "Home", "about": "About", "projects": "Projects", "experiences": "Experience", "contact": "Contact" },
   "home": {
-    "eyebrow": "Portfolio {year}",
-    "title": { "before": "Translucent", "highlight": "interfaces", "after": "solid engineering." },
-    "description": "I'm Anthony Santos, a full stack developer. I design and build web products from the database to the final pixel—with performance, accessibility, and an almost obsessive attention to detail.",
+    "eyebrow": "Software Engineering · {year}",
+    "title": { "before": "Software development focused on", "highlight": "systems", "after": "data, and integration." },
+    "description": "I develop applications with Java, Spring Boot, and Vue.js, including REST APIs, web interfaces, and integrations with relational databases.",
     "actions": { "projects": "View projects", "contact": "Get in touch" },
     "shortcuts": {
-      "about": { "hint": "Who I am and how I work", "label": "About" },
-      "projects": { "hint": "Things I've built", "label": "Projects" },
-      "experiences": { "hint": "Professional journey", "label": "Experience" },
-      "contact": { "hint": "Let's talk", "label": "Contact" }
+      "about": { "hint": "Profile, skills, and technologies", "label": "About" },
+      "projects": { "hint": "Solutions and technical implementations", "label": "Projects" },
+      "experiences": { "hint": "Roles and responsibilities", "label": "Experience" },
+      "contact": { "hint": "Professional channels", "label": "Contact" }
     },
     "stats": { "years": "years of coding", "projects": "projects delivered", "stacks": "stacks mastered" }
   },
   "about": {
-    "heading": { "eyebrow": "About Me", "title": "I build products from the database to the pixel", "description": "I started experimenting with HTML out of curiosity and never stopped. Today I work as a full stack developer, taking care of backend architecture and interfaces people genuinely enjoy using." },
+    "heading": { "eyebrow": "Professional Profile", "title": "Software development experience", "description": "I develop backend solutions and web applications. My experience includes REST APIs, Vue.js interfaces, relational databases, and software maintenance and enhancement." },
     "stackTitle": "Tech Stack",
     "values": {
-      "architecture": { "title": "Software Architecture and Design", "text": "Backend development with Java and Spring Boot, applying modular architecture concepts to build reusable components that reduce development time." },
-      "automation": { "title": "Automation and Efficiency", "text": "Full-cycle solution development, from feasibility analysis and process mapping to implementation and production delivery." },
-      "reliability": { "title": "Reliability and Validation", "text": "Development of validation engines for data ingestion flows, ensuring consistent business rules and data integrity." }
+      "architecture": { "title": "Backend Development", "text": "Development of APIs and components with Java and Spring Boot, applying object-oriented programming, SOLID principles, and modular architecture." },
+      "automation": { "title": "Web Applications and Integration", "text": "Development of Vue.js interfaces and REST API integrations across frontend, service, and data persistence layers." },
+      "reliability": { "title": "Data and Software Quality", "text": "Relational database modeling, validation implementation, and maintenance of business rules in data processing workflows." }
     },
     "skills": { "backend": "Backend", "engineering": "Engineering and Architecture", "database": "Databases and Methodologies" },
     "terms": { "oop": "OOP", "modularArchitecture": "Modular Architecture", "relationalDatabase": "Relational Databases", "processModeling": "Process Modeling" }
   },
   "experiences": {
-    "heading": { "eyebrow": "Experience", "title": "An honest timeline", "description": "Where I've worked, what I was responsible for, and the impact my work created." },
+    "heading": { "eyebrow": "Career", "title": "Professional Experience", "description": "Work completed in a corporate environment and through independent software projects." },
     "items": {
-      "intern": { "role": "Software Engineering Intern", "period": "2026 — Present", "points": { "1": "Working in the financial sector, focusing on developing data analysis solutions.", "2": "Contributing to software engineering routines while maintaining and evolving the codebase.", "3": "Technical collaboration to optimize operational workflows and integrate corporate systems." } },
-      "independent": { "role": "Backend and Full Stack Developer", "period": "2024 — 2026", "points": { "1": "Architecture and development of NutriSoft API, a Java and Spring Boot system for data management.", "2": "Building Vue.js interfaces focused on performance and seamless integration with RESTful APIs.", "3": "Relational database modeling with MySQL and creation of continuous deployment pipelines." } }
+      "intern": { "role": "Software Engineering Intern", "period": "2026 — Present", "points": { "1": "Development of data analysis solutions in the financial sector.", "2": "Codebase maintenance and enhancement as part of software engineering activities.", "3": "Support for corporate system integrations and operational workflow reviews." } },
+      "independent": { "role": "Software Project Development", "company": "Independent Projects", "period": "2024 — 2026", "points": { "1": "Development of NutriSoft API with Java and Spring Boot for data management.", "2": "Development of Vue.js interfaces and integration with REST APIs.", "3": "Relational database modeling with MySQL and configuration of continuous deployment pipelines." } }
     }
   },
   "projects": {
-    "heading": { "eyebrow": "Projects", "title": "Selected work", "description": "A sample of what I've built recently—the problem, the technical decision, and the outcome." },
+    "heading": { "eyebrow": "Technical Portfolio", "title": "Technical Projects", "description": "Applications developed to apply backend, frontend, database, and systems integration knowledge." },
     "names": { "components": "Glassmorphism UI Components", "scheduling": "Scheduling System" },
     "items": {
-      "nutrisoft": "A backend system for data management and processing, with an architecture designed to ensure scalability and information integrity.",
-      "dashboard": "A financial and operational data analysis platform designed for performance and clear visualization of decision-making indicators.",
-      "components": "A library of translucent UI components built without heavy CSS frameworks and optimized for accessibility and fluid animations.",
-      "scheduling": "A full stack web application for availability and appointment management, with server-side rendering and direct database integration."
+      "nutrisoft": "An API for creating, retrieving, and processing data, developed with Java, Spring Boot, and MySQL.",
+      "dashboard": "An application for organizing and visualizing financial and operational data, developed with Vue.js, Python, and Flask.",
+      "components": "A set of glassmorphism interface components developed with Vue 3 and SCSS, without an additional CSS framework.",
+      "scheduling": "A web application for availability and appointment management, developed with Java, Thymeleaf, and a relational database."
     }
   },
   "contact": {
-    "heading": { "eyebrow": "Contact", "title": "Let's build something together", "description": "Feel free to send me an email or connect through social media. I usually reply within one business day." },
-    "channelsTitle": "Available channels",
+    "heading": { "eyebrow": "Contact", "title": "Professional Contact", "description": "I am available for software engineering opportunities and collaboration on development projects." },
+    "channelsTitle": "Contact channels",
     "channels": { "email": "Email", "linkedin": "LinkedIn", "github": "GitHub" },
     "availability": "Available for remote collaboration — São Paulo time zone (UTC−3)."
   },
-  "footer": { "tagline": "Built with attention to detail and plenty of frosted glass." }
+  "footer": { "tagline": "Professional software engineering portfolio." }
 }
